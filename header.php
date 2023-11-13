@@ -38,7 +38,7 @@ if(isset($_SESSION['kd_cs'])){
 					<li><a href="index.php">Home</a></li>
 					<li><a href="produk.php">Produk</a></li>
 					<li><a href="about.php">Tentang Kami</a></li>
-					<li><a href="manual.php">Manual Aplikasi</a></li>
+					<li><a href="manual.php">Contact</a></li>
 					<?php 
 					if(isset($_SESSION['kd_cs'])){
 					$kode_cs = $_SESSION['kd_cs'];
